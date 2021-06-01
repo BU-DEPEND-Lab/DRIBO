@@ -1,5 +1,4 @@
-# DRIBO: Robust Deep Reinforcement Learning via Multi-View Information
-Bottleneck
+# DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck
 
 This repository is the official implementation of DRIBO. Our implementation of SAC is based on [SAC+AE](https://github.com/denisyarats/pytorch_sac_ae) by Denis Yarats.
 
