@@ -3,7 +3,7 @@
 This repository is the official implementation of DRIBO. Our implementation of SAC is based on [SAC+AE](https://github.com/denisyarats/pytorch_sac_ae) by Denis Yarats.
 
 ## Installation
-1. Install dm_control with [MuJoCo Pro 2.00](http://www.mujoco.org/);
+1. Install dm_control with [MuJoCo Pro 2.0](http://www.mujoco.org/);
     ```
     pip install dm_control
     pip install git+git://github.com/denisyarats/dmc2gym.git
