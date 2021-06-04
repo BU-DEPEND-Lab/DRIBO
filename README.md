@@ -17,7 +17,7 @@ This repository is the official implementation of DRIBO. Our implementation of S
 3. Running the natural video setting
 You can download the [Kinetics
 dataset](https://github.com/Showmax/kinetics-downloader) to replicate our setup.
-* Grab the "arranging_flower" label from the train dataset to replace backgrounds during training. The videos are in folder `../kinetics-downloader/dataset/train/arranging_flowers/`.
+* Grab the "arranging_flower" label from the train dataset to replace backgrounds during training. The videos are in folder `../kinetics-downloader/dataset/train/arranging_flowers`.
     ```
     python download.py --classes 'arranging flowers'
     ```
