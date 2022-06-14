@@ -655,9 +655,9 @@ class DRIBOSacAgent(object):
         # obtain target latent states
         _, target_post = self.DRIBO.encode(obs, action, ema=True)
         target_feat = get_feat(target_post)
-        target_feat = self.encoder_target.ln(
-            target_feat.reshape(batch_t * batch_b, -1)
-        ).reshape(batch_t, batch_b, -1)
+        # target_feat = self.encoder_target.ln(
+        #     target_feat.reshape(batch_t * batch_b, -1)
+        # ).reshape(batch_t, batch_b, -1)
         # [t, t + batch_t] - > [t + 1, t + batch_t]
         target_next_latent_states = target_feat[1:].reshape(
             (batch_t - 1) * batch_b, -1
